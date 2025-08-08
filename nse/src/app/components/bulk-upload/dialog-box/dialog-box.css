@@ -1,0 +1,65 @@
+:host {
+  display: block;
+  padding: 15px;
+}
+
+
+.primary-cont-wrapper { 
+  border: 1px solid #ccc;
+  height: 270px;
+  overflow-x: auto;
+
+}
+
+.sticky-tbl {
+  width: 100%;
+  border-collapse: collapse;
+   min-width: 800px;
+}
+
+.sticky-tbl th,.sticky-tbl td {
+  text-align: left;
+  padding: 8px;
+}
+
+.sticky-tbl thead th{
+  position:sticky;
+  top: 0;
+  background-color: rgb(245, 236, 225);
+  z-index: 2;
+}
+
+.btn {
+  padding: 8px 20px;
+  border: none;
+  background-color: #e17917;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.cont-2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.cont-1 {
+  background-color: #e17917;
+  height: 39px;
+  font-weight: 500;
+  font-size: x-large;
+  margin-top: -4px;
+  align-items: center; 
+  display: flex;
+  padding-left: 9px;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0px 0;
+
+}
+
+.cont-1 p {
+  color: white;
+}

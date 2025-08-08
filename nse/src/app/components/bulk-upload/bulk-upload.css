@@ -1,0 +1,161 @@
+:host {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(to right, #f7971e, #fdc830);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px 5px 0 0;
+  width: fit-content;
+  margin-left: 50px;
+  box-shadow: 0px 6px 6px  rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 100px;
+  left: 315px;
+}
+
+.header span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+  margin-top: 86px;
+}
+
+
+
+.cont {
+  width: 750px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0px 8px 0px 0px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: start;
+  color: #141313;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #e57f12;
+  margin: 20px 0;
+}
+
+.cont-1 {
+  margin: 40px;
+  color: red;
+}
+
+.btn-1 {
+  background-color: #e57f12;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.btn-1:hover  {
+  background-color:rgb(231, 95, 95);
+}
+
+.para {
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+.cont-3{
+  background-color: rgb(198, 192, 192);
+  display: flex;
+  width: 750px;
+  justify-content: center;
+}
+
+.import {
+  background-color:rgb(153, 30, 30);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 33px;
+}
+
+:hover.import {
+  background-color: #e6520e;
+  cursor: pointer;
+}
+
+.str {
+  background-color:rgb(153, 30, 30);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  width: 130px;
+}
+
+:hover.str {
+  background-color: #e6520e;
+  cursor: pointer;
+}
+
+
+tr {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  height: 30px;
+}
+
+.btn-2 {
+  background-color:rgb(153, 30, 30);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 80px;
+  height: 33px;
+}
+
+.btn-2hover  {
+  background-color: #e6520e;
+  cursor: pointer;
+}
+.div-1{
+      display: flex;
+    justify-content: center;
+}

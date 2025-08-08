@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #55585a;
+  padding: 10px 20px;
+  color: white;
+}
+
+header span, nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}

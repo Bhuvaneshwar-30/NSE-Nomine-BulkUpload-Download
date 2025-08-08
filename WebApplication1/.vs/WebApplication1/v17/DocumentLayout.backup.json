@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Angular-projects\\NSE\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|i:\\angular-projects\\nse\\webapplication1\\controllers\\nomine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|solutionrelative:controllers\\nomine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|i:\\angular-projects\\nse\\webapplication1\\model\\nomineedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|solutionrelative:model\\nomineedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|i:\\angular-projects\\nse\\webapplication1\\services\\achfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|solutionrelative:services\\achfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|i:\\angular-projects\\nse\\webapplication1\\model\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|solutionrelative:model\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|i:\\angular-projects\\nse\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FA6C984-51EA-4E77-AB39-C50E85FDD14E}|WebApplication1.csproj|solutionrelative:webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "nomine.cs",
+              "DocumentMoniker": "I:\\Angular-projects\\NSE\\WebApplication1\\Controllers\\nomine.cs",
+              "RelativeDocumentMoniker": "Controllers\\nomine.cs",
+              "ToolTip": "I:\\Angular-projects\\NSE\\WebApplication1\\Controllers\\nomine.cs",
+              "RelativeToolTip": "Controllers\\nomine.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAuwKsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:20:12.822Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "filePath.cs",
+              "DocumentMoniker": "I:\\Angular-projects\\NSE\\WebApplication1\\Model\\filePath.cs",
+              "RelativeDocumentMoniker": "Model\\filePath.cs",
+              "ToolTip": "I:\\Angular-projects\\NSE\\WebApplication1\\Model\\filePath.cs",
+              "RelativeToolTip": "Model\\filePath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T12:02:40.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebApplication1.csproj",
+              "DocumentMoniker": "I:\\Angular-projects\\NSE\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1.csproj",
+              "ToolTip": "I:\\Angular-projects\\NSE\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T11:59:20.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Achfileservice.cs",
+              "DocumentMoniker": "I:\\Angular-projects\\NSE\\WebApplication1\\services\\Achfileservice.cs",
+              "RelativeDocumentMoniker": "services\\Achfileservice.cs",
+              "ToolTip": "I:\\Angular-projects\\NSE\\WebApplication1\\services\\Achfileservice.cs",
+              "RelativeToolTip": "services\\Achfileservice.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T10:00:01.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NomineeDto.cs",
+              "DocumentMoniker": "I:\\Angular-projects\\NSE\\WebApplication1\\Model\\NomineeDto.cs",
+              "RelativeDocumentMoniker": "Model\\NomineeDto.cs",
+              "ToolTip": "I:\\Angular-projects\\NSE\\WebApplication1\\Model\\NomineeDto.cs",
+              "RelativeToolTip": "Model\\NomineeDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T09:35:43.423Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

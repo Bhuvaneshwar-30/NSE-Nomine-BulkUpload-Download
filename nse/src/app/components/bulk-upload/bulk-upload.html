@@ -1,0 +1,45 @@
+<div class="header">
+  <span>Nominee Bulk Upload</span>
+</div>
+<div class="container">
+
+  <div class="cont">
+    <p>Nominee Bulk Upload</p>
+    <hr>
+    <div class="cont-1">
+      <label for="Input" style="padding-right: 37px ;padding-left:125px;">File name :</label>
+      <input #fileInput type="file" id="fileInput" class="file-input" accept=".xlsx,.xls,.txt" style="display: none;"
+        (change)="onFileSelected($event)" />
+      <button class="btn-1" type="button" (click)="triggerFileInput()">Upload Files...</button>
+      <div class="cont-2">
+        <p class="para">(Support TXT,XLS,XLSX formate only)</p>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="cont-3">
+    <button class="import" (click)="importbtn()">Import</button>
+    <button class="str" (click)="structure()">View Structure</button>
+  </div>
+
+<!-- 
+  <div *ngIf="excelHeaders.length > 0" style="width: 98.7%; overflow-x: auto; display: block;">
+    <table border="1" style="width: 98.7%; min-width: 750px; white-space: nowrap; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th *ngFor="let head of excelHeaders">{{ head }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of excelData">
+          <td *ngFor="let head of excelHeaders">{{ row[head] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div *ngIf="Preview && excelHeaders.length > 0" class="div-1">
+     <button (click)="preview()" class="btn-2">Close</button>
+  </div>
+  -->
+</div>

@@ -1,0 +1,83 @@
+<div class="header">
+  <span>Nominee Bulk Download</span>
+</div>
+<div class="container">
+  <div class="cont">
+    <p>Nominee Bulk Download</p>
+    <hr>
+    <form #searchForm="ngForm">
+      <div class="form-column">
+        <div class="form-group">
+          <label for="date">From Date :</label>
+          <input type="date" id="fromDate" name="fromDate" [(ngModel)]="fromDate" />
+        </div>
+
+        <div class="form-group">
+          <label for="date">To Date :</label>
+          <input type="date" id="toDate" name="toDate" [(ngModel)]="toDate" />
+        </div>
+
+        <div class="form-group">
+          <label for="customer">Customer-ID :</label>
+          <input type="text" id="customerId" name="customerId" [(ngModel)]="customerId" maxlength="10"
+            (paste)="sanitizePaste($event)" (keypress)="allowOnlyNumbers($event)" placeholder="Enter Customer ID" />
+        </div>
+      </div>
+    </form>
+  </div>
+
+<div class="cont-1">
+  <button class="btn" (click)="locate()">Locate</button>
+  <button class="btn" (click)="reset(searchForm)">Reset</button>
+  <button class="btn" (click)="download()">Download</button>
+</div>
+<div *ngIf="nomineeData && nomineeData.length > 0; else noData" class="data-display"
+ style="width: 97.7%; overflow-x: auto; display: block; margin-right: 18px; margin-top: 10px; border: 1px solid black; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  <table border="1" style="width: 97.7%; min-width: 750px; white-space: nowrap; border-collapse: collapse;">
+    <thead style="height: 50px;">
+      <tr style="text-align: center;">
+        <th>Customer-ID</th>
+        <th>InvestorName</th>
+        <th>ExecuteThroughPoa</th>
+        <th>BankName</th>
+        <th>AccountNumber</th>
+        <th>BranchName</th>
+        <th>AccountType</th>
+        <th>MicrNumber</th>
+        <th>IfscCode</th>
+        <th>BankHolderName</th>
+        <th>BankHolderName1</th>
+        <th>BankHolderName2</th>
+        <th>AchAmount</th>
+        <th>AchFromDate</th>
+        <th>AchToDate</th>
+        <th>ModeOfHolder</th>
+      </tr>
+    </thead>
+    <tbody style="height: 50px;">
+      <tr *ngFor="let currentNominee of nomineeData" style="text-align: center;">
+        <td>{{ currentNominee.customerID }}</td>
+        <td>{{ currentNominee.investorName }}</td>
+        <td>{{ currentNominee.executeThroughPoa }}</td>
+        <td>{{ currentNominee.bankName }}</td>
+        <td>{{ currentNominee.accountNumber }}</td>
+        <td>{{ currentNominee.branchName }}</td>
+        <td>{{ currentNominee.accountType }}</td>
+        <td>{{ currentNominee.micrNumber }}</td>
+        <td>{{ currentNominee.ifscCode }}</td>
+        <td>{{ currentNominee.bankHolderName }}</td>
+        <td>{{ currentNominee.bankHolderName1 }}</td>
+        <td>{{ currentNominee.bankHolderName2 }}</td>
+        <td>{{ currentNominee.achAmount }}</td>
+        <td>{{ currentNominee.achFromDate | date:'dd-MM-yyyy' }}</td>
+        <td>{{ currentNominee.achToDate | date:'dd-MM-yyyy' }}</td>
+        <td>{{ currentNominee.modeOfHolder }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<ng-template #noData>
+  <p *ngIf="searchAttempted" class="para">No nominee data found.</p>
+</ng-template>
